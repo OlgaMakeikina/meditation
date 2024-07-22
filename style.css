@@ -1,0 +1,52 @@
+
+body {
+    background-color:#3b3b3b;
+    }
+#header {
+    display: flex;
+    justify-content: center;
+    color: rgb(231, 230, 230);
+    font-size: 30px;
+}
+.container {
+    display: flex;
+}
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+    .one {
+        background-image: url('0.jpg');
+        }
+        
+        .two {
+        background-image: url('1.jpg');
+        }
+        
+        .three {
+        background-image: url('2.jpg');
+        }
+        
+        .four {
+        background-image: url('3.jpg');
+        }
+        
+
+#btn {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 30px;
+    border: none;
+}
+.selected {
+    flex: 4;
+}
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+}
